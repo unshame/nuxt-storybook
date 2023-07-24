@@ -1,0 +1,23 @@
+{
+    "name": "nuxt-storybook",
+    "private": true,
+    "packageManager": "yarn@3.3.1",
+    "scripts": {
+        "storybook": "storybook dev -p 6006",
+        "storybook:build": "storybook build",
+        "postinstall": "nuxt prepare"
+    },
+    "dependencies": {
+        "@storybook/addon-essentials": "7.1.0",
+        "@storybook/vue3": "7.1.0",
+        "@storybook/vue3-vite": "7.1.0",
+        "@vueuse/core": "10.2.1",
+        "nuxt": "3.6.5",
+        "prettier": "3.0.0",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "storybook": "7.1.0",
+        "unplugin-auto-import": "0.16.6",
+        "unplugin-vue-components": "0.25.1"
+    }
+}
